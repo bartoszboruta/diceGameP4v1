@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Web;
+using System.Data.Entity;
 
 namespace REKTDICEGAME
 {
@@ -98,12 +99,22 @@ namespace REKTDICEGAME
 
         private void savePointsBtn_Click(object sender, EventArgs e)
         {
-            savePoints(playerName, maxPoints);
+            savePoints(playerName, maxPoints, maxAttempts);
         }
 
-        private static void savePoints(string playerName, int maxPoints)
+        private static void savePoints(string playerName, int maxPoints, int maxAttempts)
         {
-            
+            using (var context = new diceGameStatsEntities2())
+            {
+                context.Set<rankingStorage>()
+                    .Add(new rankingStorage
+                    {
+                        attempts = maxAttempts,
+                        points = maxPoints,
+                        username = playerName,
+                    });
+                context.SaveChanges();
+            }
         }
     }
 }

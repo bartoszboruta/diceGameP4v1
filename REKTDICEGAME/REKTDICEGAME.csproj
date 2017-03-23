@@ -44,6 +44,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -74,6 +76,24 @@
     </Compile>
     <Compile Include="Rank.Designer.cs">
       <DependentUpon>Rank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RankingEntities.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RankingEntities.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RankingEntities.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RankingEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RankingEntities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RankingEntities.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="rankingStorage.cs">
+      <DependentUpon>RankingEntities.tt</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -108,8 +128,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <EntityDeploy Include="RankingEntities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>RankingEntities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="RankingEntities.edmx.diagram">
+      <DependentUpon>RankingEntities.edmx</DependentUpon>
+    </None>
     <None Include="Resources\dice_1.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +155,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\dice_blank.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RankingEntities.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>RankingEntities.edmx</DependentUpon>
+      <LastGenOutput>RankingEntities.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="RankingEntities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>RankingEntities.edmx</DependentUpon>
+      <LastGenOutput>RankingEntities.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

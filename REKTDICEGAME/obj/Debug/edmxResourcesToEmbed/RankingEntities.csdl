@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="diceGameStatsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="rankingStorage">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="points" Type="Int32" />
+    <Property Name="attempts" Type="Int32" />
+    <Property Name="username" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityContainer Name="diceGameStatsEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="rankingStorage" EntityType="Self.rankingStorage" />
+  </EntityContainer>
+</Schema>

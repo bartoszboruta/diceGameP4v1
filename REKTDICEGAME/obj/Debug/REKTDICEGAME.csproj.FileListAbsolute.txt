@@ -13,3 +13,18 @@ c:\users\bartosz boruta\documents\visual studio 2015\Projects\REKTDICEGAME\REKTD
 c:\users\bartosz boruta\documents\visual studio 2015\Projects\REKTDICEGAME\REKTDICEGAME\bin\Debug\EntityFramework.xml
 c:\users\bartosz boruta\documents\visual studio 2015\Projects\REKTDICEGAME\REKTDICEGAME\bin\Debug\EntityFramework.SqlServer.xml
 c:\users\bartosz boruta\documents\visual studio 2015\Projects\REKTDICEGAME\REKTDICEGAME\obj\Debug\REKTDICEGAME.Rank.resources
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\bin\Debug\REKTDICEGAME.exe.config
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\obj\Debug\REKTDICEGAME.exe
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\obj\Debug\REKTDICEGAME.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\bin\Debug\REKTDICEGAME.exe
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\bin\Debug\REKTDICEGAME.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\obj\Debug\REKTDICEGAME.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\obj\Debug\REKTDICEGAME.Form1.resources
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\obj\Debug\REKTDICEGAME.GameField.resources
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\obj\Debug\REKTDICEGAME.Properties.Resources.resources
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\obj\Debug\REKTDICEGAME.csproj.GenerateResource.Cache
+C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\diceGameP4v1\REKTDICEGAME\obj\Debug\REKTDICEGAME.Rank.resources

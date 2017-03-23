@@ -140,6 +140,7 @@
             this.dice_0.Location = new System.Drawing.Point(3, 112);
             this.dice_0.Name = "dice_0";
             this.dice_0.Size = new System.Drawing.Size(147, 147);
+            this.dice_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dice_0.TabIndex = 3;
             this.dice_0.TabStop = false;
             this.dice_0.WaitOnLoad = true;
@@ -151,6 +152,7 @@
             this.dice_1.Location = new System.Drawing.Point(156, 112);
             this.dice_1.Name = "dice_1";
             this.dice_1.Size = new System.Drawing.Size(147, 147);
+            this.dice_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dice_1.TabIndex = 4;
             this.dice_1.TabStop = false;
             // 
@@ -161,6 +163,7 @@
             this.dice_2.Location = new System.Drawing.Point(309, 112);
             this.dice_2.Name = "dice_2";
             this.dice_2.Size = new System.Drawing.Size(147, 147);
+            this.dice_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dice_2.TabIndex = 5;
             this.dice_2.TabStop = false;
             // 
@@ -171,6 +174,7 @@
             this.dice_3.Location = new System.Drawing.Point(462, 112);
             this.dice_3.Name = "dice_3";
             this.dice_3.Size = new System.Drawing.Size(147, 147);
+            this.dice_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dice_3.TabIndex = 6;
             this.dice_3.TabStop = false;
             // 
@@ -181,6 +185,7 @@
             this.dice_4.Location = new System.Drawing.Point(615, 112);
             this.dice_4.Name = "dice_4";
             this.dice_4.Size = new System.Drawing.Size(150, 147);
+            this.dice_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dice_4.TabIndex = 7;
             this.dice_4.TabStop = false;
             // 
