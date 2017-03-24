@@ -44,24 +44,28 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(284, 261);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(412, 314);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // rankingDataGrid
             // 
             this.rankingDataGrid.AllowUserToDeleteRows = false;
+            this.rankingDataGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rankingDataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.rankingDataGrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllHeaders;
             this.rankingDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.rankingDataGrid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rankingDataGrid.Location = new System.Drawing.Point(3, 3);
             this.rankingDataGrid.Name = "rankingDataGrid";
-            this.rankingDataGrid.Size = new System.Drawing.Size(278, 255);
+            this.rankingDataGrid.Size = new System.Drawing.Size(406, 308);
             this.rankingDataGrid.TabIndex = 0;
             // 
             // Rank
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(412, 314);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Rank";
             this.Text = "Rank";

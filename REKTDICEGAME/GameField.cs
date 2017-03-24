@@ -1,15 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Web;
-using System.Data.Entity;
 
 namespace REKTDICEGAME
 {
@@ -64,8 +55,8 @@ namespace REKTDICEGAME
                 attemptsLbl.Text = attempt.ToString() + '/' + maxAttempts.ToString();
                 return;
             }
-            maxPoints = lastPoints > maxPoints ? lastPoints : maxPoints;
             lastPoints = points;
+            maxPoints = lastPoints > maxPoints ? lastPoints : maxPoints;
             newGameBtn.Show();
         }
 

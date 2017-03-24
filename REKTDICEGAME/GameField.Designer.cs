@@ -89,7 +89,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(768, 546);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(764, 481);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // savePointsBtn
@@ -98,9 +98,9 @@
             this.tableLayoutPanel1.SetColumnSpan(this.savePointsBtn, 2);
             this.savePointsBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.savePointsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.savePointsBtn.Location = new System.Drawing.Point(3, 439);
+            this.savePointsBtn.Location = new System.Drawing.Point(3, 386);
             this.savePointsBtn.Name = "savePointsBtn";
-            this.savePointsBtn.Size = new System.Drawing.Size(300, 104);
+            this.savePointsBtn.Size = new System.Drawing.Size(298, 92);
             this.savePointsBtn.TabIndex = 0;
             this.savePointsBtn.Text = "Save points";
             this.savePointsBtn.UseVisualStyleBackColor = true;
@@ -111,9 +111,9 @@
             this.rollBtn.AutoSize = true;
             this.rollBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rollBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.rollBtn.Location = new System.Drawing.Point(309, 265);
+            this.rollBtn.Location = new System.Drawing.Point(307, 233);
             this.rollBtn.Name = "rollBtn";
-            this.rollBtn.Size = new System.Drawing.Size(147, 59);
+            this.rollBtn.Size = new System.Drawing.Size(146, 51);
             this.rollBtn.TabIndex = 1;
             this.rollBtn.Text = "Roll";
             this.rollBtn.UseVisualStyleBackColor = true;
@@ -125,9 +125,9 @@
             this.tableLayoutPanel1.SetColumnSpan(this.pointsLbl, 2);
             this.pointsLbl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pointsLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 44F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.pointsLbl.Location = new System.Drawing.Point(462, 0);
+            this.pointsLbl.Location = new System.Drawing.Point(459, 0);
             this.pointsLbl.Name = "pointsLbl";
-            this.pointsLbl.Size = new System.Drawing.Size(303, 109);
+            this.pointsLbl.Size = new System.Drawing.Size(302, 96);
             this.pointsLbl.TabIndex = 2;
             this.pointsLbl.Text = "0";
             this.pointsLbl.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -137,9 +137,9 @@
             this.dice_0.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dice_0.Image = global::REKTDICEGAME.Properties.Resources.dice_blank;
             this.dice_0.InitialImage = ((System.Drawing.Image)(resources.GetObject("dice_0.InitialImage")));
-            this.dice_0.Location = new System.Drawing.Point(3, 112);
+            this.dice_0.Location = new System.Drawing.Point(3, 99);
             this.dice_0.Name = "dice_0";
-            this.dice_0.Size = new System.Drawing.Size(147, 147);
+            this.dice_0.Size = new System.Drawing.Size(146, 128);
             this.dice_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dice_0.TabIndex = 3;
             this.dice_0.TabStop = false;
@@ -149,9 +149,9 @@
             // 
             this.dice_1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dice_1.Image = global::REKTDICEGAME.Properties.Resources.dice_blank;
-            this.dice_1.Location = new System.Drawing.Point(156, 112);
+            this.dice_1.Location = new System.Drawing.Point(155, 99);
             this.dice_1.Name = "dice_1";
-            this.dice_1.Size = new System.Drawing.Size(147, 147);
+            this.dice_1.Size = new System.Drawing.Size(146, 128);
             this.dice_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dice_1.TabIndex = 4;
             this.dice_1.TabStop = false;
@@ -160,9 +160,9 @@
             // 
             this.dice_2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dice_2.Image = global::REKTDICEGAME.Properties.Resources.dice_blank;
-            this.dice_2.Location = new System.Drawing.Point(309, 112);
+            this.dice_2.Location = new System.Drawing.Point(307, 99);
             this.dice_2.Name = "dice_2";
-            this.dice_2.Size = new System.Drawing.Size(147, 147);
+            this.dice_2.Size = new System.Drawing.Size(146, 128);
             this.dice_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dice_2.TabIndex = 5;
             this.dice_2.TabStop = false;
@@ -171,9 +171,9 @@
             // 
             this.dice_3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dice_3.Image = global::REKTDICEGAME.Properties.Resources.dice_blank;
-            this.dice_3.Location = new System.Drawing.Point(462, 112);
+            this.dice_3.Location = new System.Drawing.Point(459, 99);
             this.dice_3.Name = "dice_3";
-            this.dice_3.Size = new System.Drawing.Size(147, 147);
+            this.dice_3.Size = new System.Drawing.Size(146, 128);
             this.dice_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dice_3.TabIndex = 6;
             this.dice_3.TabStop = false;
@@ -182,9 +182,9 @@
             // 
             this.dice_4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dice_4.Image = global::REKTDICEGAME.Properties.Resources.dice_blank;
-            this.dice_4.Location = new System.Drawing.Point(615, 112);
+            this.dice_4.Location = new System.Drawing.Point(611, 99);
             this.dice_4.Name = "dice_4";
-            this.dice_4.Size = new System.Drawing.Size(150, 147);
+            this.dice_4.Size = new System.Drawing.Size(150, 128);
             this.dice_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dice_4.TabIndex = 7;
             this.dice_4.TabStop = false;
@@ -196,9 +196,9 @@
             this.strikeLbl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.strikeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 55F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.strikeLbl.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.strikeLbl.Location = new System.Drawing.Point(3, 327);
+            this.strikeLbl.Location = new System.Drawing.Point(3, 287);
             this.strikeLbl.Name = "strikeLbl";
-            this.strikeLbl.Size = new System.Drawing.Size(762, 109);
+            this.strikeLbl.Size = new System.Drawing.Size(758, 96);
             this.strikeLbl.TabIndex = 8;
             this.strikeLbl.Text = "!!! STRIKE !!!";
             this.strikeLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -209,9 +209,9 @@
             this.attemptsLbl.AutoSize = true;
             this.attemptsLbl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.attemptsLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.attemptsLbl.Location = new System.Drawing.Point(309, 0);
+            this.attemptsLbl.Location = new System.Drawing.Point(307, 0);
             this.attemptsLbl.Name = "attemptsLbl";
-            this.attemptsLbl.Size = new System.Drawing.Size(147, 109);
+            this.attemptsLbl.Size = new System.Drawing.Size(146, 96);
             this.attemptsLbl.TabIndex = 9;
             this.attemptsLbl.Text = "0/10";
             this.attemptsLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -221,9 +221,9 @@
             this.tableLayoutPanel1.SetColumnSpan(this.newGameBtn, 2);
             this.newGameBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.newGameBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.newGameBtn.Location = new System.Drawing.Point(462, 439);
+            this.newGameBtn.Location = new System.Drawing.Point(459, 386);
             this.newGameBtn.Name = "newGameBtn";
-            this.newGameBtn.Size = new System.Drawing.Size(303, 104);
+            this.newGameBtn.Size = new System.Drawing.Size(302, 92);
             this.newGameBtn.TabIndex = 10;
             this.newGameBtn.Text = "New Game";
             this.newGameBtn.UseVisualStyleBackColor = true;
@@ -234,9 +234,9 @@
             // 
             this.lastPointsLbl.AutoSize = true;
             this.lastPointsLbl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lastPointsLbl.Location = new System.Drawing.Point(615, 262);
+            this.lastPointsLbl.Location = new System.Drawing.Point(611, 230);
             this.lastPointsLbl.Name = "lastPointsLbl";
-            this.lastPointsLbl.Size = new System.Drawing.Size(150, 65);
+            this.lastPointsLbl.Size = new System.Drawing.Size(150, 57);
             this.lastPointsLbl.TabIndex = 11;
             this.lastPointsLbl.Text = "0";
             this.lastPointsLbl.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -245,9 +245,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Location = new System.Drawing.Point(462, 262);
+            this.label1.Location = new System.Drawing.Point(459, 230);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 65);
+            this.label1.Size = new System.Drawing.Size(146, 57);
             this.label1.TabIndex = 12;
             this.label1.Text = "Last";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -260,7 +260,7 @@
             this.playerLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.playerLbl.Location = new System.Drawing.Point(3, 0);
             this.playerLbl.Name = "playerLbl";
-            this.playerLbl.Size = new System.Drawing.Size(300, 109);
+            this.playerLbl.Size = new System.Drawing.Size(298, 96);
             this.playerLbl.TabIndex = 13;
             this.playerLbl.Text = "Player";
             // 
@@ -268,9 +268,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(3, 262);
+            this.label2.Location = new System.Drawing.Point(3, 230);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(147, 65);
+            this.label2.Size = new System.Drawing.Size(146, 57);
             this.label2.TabIndex = 14;
             this.label2.Text = "Max";
             // 
@@ -278,9 +278,9 @@
             // 
             this.maxPointsLbl.AutoSize = true;
             this.maxPointsLbl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.maxPointsLbl.Location = new System.Drawing.Point(156, 262);
+            this.maxPointsLbl.Location = new System.Drawing.Point(155, 230);
             this.maxPointsLbl.Name = "maxPointsLbl";
-            this.maxPointsLbl.Size = new System.Drawing.Size(147, 65);
+            this.maxPointsLbl.Size = new System.Drawing.Size(146, 57);
             this.maxPointsLbl.TabIndex = 15;
             this.maxPointsLbl.Text = "0";
             this.maxPointsLbl.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -289,8 +289,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(768, 546);
+            this.ClientSize = new System.Drawing.Size(764, 481);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.MinimumSize = new System.Drawing.Size(780, 520);
             this.Name = "GameField";
             this.Text = "GameField";
             this.Load += new System.EventHandler(this.GameField_Load);
